@@ -6,7 +6,7 @@ Keeping track of a busy schedule is often difficult in the modern workplace, wit
 
 This application is a simple solution to managing the hours of the work day. Employees can add tasks to each hour and are given visual feedback with colour coding as to which task is current, pending, or (hopefully!!) complete.
 
-[Deployed GitHub Page]()
+[Deployed GitHub Page](https://mqas1.github.io/work-day-scheduler/)
 
 ![Screenshot of deployed application](./assets/images/deployed-screenshot.jpeg)
 
