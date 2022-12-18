@@ -5,7 +5,7 @@ body {
 
   header {
     text-align: center;
-    border-bottom: 5px solid black;
+    border-bottom: 8px solid black;
   }
   
   textarea {
@@ -61,4 +61,37 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
+  }
+
+  /* Styling for the message div. */
+  #message {
+    text-align: center;
+    font-size: 14x;
+    padding-bottom: 1rem;
+  }
+
+  /* Additional mobile responsiveness using media queries. */
+  @media screen and (max-width: 768px) {
+    .time-block {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hour {
+      width: auto;
+      border-bottom: 1px solid black;
+    }
+
+    .saveBtn {
+      width: auto;
+      border-bottom-left-radius: 15px;
+      border-top-right-radius: 0px;
+      height: 50px;
+    }
+
+    textarea {
+      width: auto;
+      border-left: none;
+      text-overflow: clip;
+    }
   }
